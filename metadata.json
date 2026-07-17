@@ -1,0 +1,6 @@
+{
+  "name": "Rio Sistemas Survey",
+  "description": "Coletor inteligente de levantamento técnico para sistemas de detecção e alarme de incêndio (SDAI).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
