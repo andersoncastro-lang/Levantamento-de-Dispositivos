@@ -10,59 +10,46 @@ export const CATEGORIAS_DISPOSITIVOS = [
 
 export const DISPOSITIVOS_POR_CATEGORIA: Record<string, string[]> = {
   'Central': [
-    'Central de Incêndio Endereçável 1 Laço',
-    'Central de Incêndio Endereçável 2 Laços',
-    'Central de Incêndio Endereçável 4 Laços',
-    'Central de Incêndio Convencional',
-    'Painel Repetidor de Alarme',
-    'Subcentral de Comando',
+    'FHT15-Central Alarme SubRede - 21006',
+    'FHT7-Central Wireless 7 Polegadas - 21026',
+    'FHT15-Central Wireless - 21005',
+    'FHT 7-Central Wireless SubRede - 21028'
   ],
   'Detectores': [
-    'Detector Óptico de Fumaça Endereçável',
-    'Detector Termovelocimétrico Endereçável',
-    'Detector de Temperatura Fixo Endereçável',
-    'Detector de Fumaça por Amostragem de Ar (Vesda)',
-    'Detector Linear de Fumaça (Beam Detector)',
-    'Detector Óptico de Fumaça Convencional',
-    'Detector Termovelocimétrico Convencional',
-    'Detector de Chama UV/IR',
+    'Detector Fumaça Óptico/Termovelocimétrico 2.0 Entreforro',
+    'Detector de Fumaça Óptico Multicritério 2.0'
   ],
   'Acionadores': [
-    'Acionador Manual Endereçável (Botoeira - Quebre o Vidro)',
-    'Acionador Manual Endereçável com Martelo',
-    'Acionador Manual Endereçável de Dupla Ação (Puxe e Aperte)',
-    'Acionador Manual Convencional',
-    'Acionador de Emergência para Abandono de Área',
+    'Acionador Manual DC IP67 2.0',
+    'Acionador Manual DC Classificação EXd',
+    'Acionador Manual de Emergência DC IP66',
+    'Botão de Pânico - 31511'
   ],
   'Avisadores': [
-    'Sirene Audiovisual Endereçável de Parede',
-    'Sirene Audiovisual Convencional',
-    'Sirene de Alarme Somente Áudio Bitonal',
-    'Giroflex / Estrobo de Alerta Visual',
-    'Campainha de Incêndio Industrial',
-    'Sirene Direcional por Voz',
+    'Repetidor AC IP66 Sirene 120 dB/Visual Xênon - 21185',
+    'Repetidor Fotovoltáico IP66 Sirene/Visual',
+    'Repetidor AC IP66 Sirene bitonal/Visual - 21166'
   ],
   'Interfaces': [
-    'Módulo Isolador de Laço',
-    'Módulo de Entrada Endereçável (Monitor de Contato)',
-    'Módulo de Saída Relé Endereçável',
-    'Módulo de Controle de Sirenes (Kits de Disparo)',
-    'Módulo de Controle de Válvulas / Damper',
+    'Repetidor AC IP66 2 Relês (5A) 21167',
+    'Repetidor AC IP62 com Sensor de Gás 21170',
+    'Repetidor AC Integração Detector Linear 21173',
+    'Monitor de Alertas para Central Cabeada DC',
+    'Monitor de Alertas para Chave de Fluxo',
+    'Repetidor AC IP66 I/O (5A)'
   ],
   'Módulos': [
-    'Módulo de Zona Convencional (MZC)',
-    'Módulo de Interface Convencional/Endereçável',
-    'Módulo de Entrada e Saída Integrado (MIO)',
-    'Módulo Repetidor de Sinal',
+    'Supervisora MirrorBox MBM FHT - 21021',
+    'Módulo Supervisor MirrorBox - 21020',
+    'Repetidor AC IP66 I/O (5A) 21172',
+    'Monitor de Alertas Para Temperatura',
+    'Monitor de Alertas Porta Aberta c/ Buzzer',
+    'Monitor de Alertas Porta Aberta',
+    'Monitor de Alertas'
   ],
   'Acessórios': [
-    'Bateria Selada 12V 7Ah',
-    'Bateria Selada 12V 18Ah',
-    'Cabo de Incêndio Blindado 2x1.5mm² (por metro)',
-    'Cabo de Incêndio Blindado 3x1.5mm² (por metro)',
-    'Protetor Acrílico para Acionador Manual',
-    'Caixa de Sobrepor para Botoeira',
-    'Fonte Auxiliar de Alimentação 24V',
+    'Repetidor de Sinal Wireless Fotovoltáico IP66',
+    'Repetidor AC IP66 21181'
   ]
 };
 
